@@ -60,11 +60,7 @@ background: #fff;
   color: #000;
 }
 
-.helo{
-	float: left;
-	padding-top: 20%;
-	padding-left: 50px;
-}
+
 .fa-instagram {
   background: #fff;
   color: #000;
@@ -82,9 +78,18 @@ header{
 .buttons{
 	padding-bottom: 25px;
 }
-
+.helo{
+        height: 100%;
+        position: fixed;
+	float: left;
+        top: 40%;
+}
 .foot{
-	margin-bottom: 120%;
+    height: 100%;
+    right: 10px;
+    top: 40%;
+    align:center;
+    position: fixed;
 }
 button{
 	background: transparent;
@@ -101,6 +106,11 @@ button{
 button:focus{
 	outline: none;
 }
+.one{
+    margin-right: 2%;
+    width: 100%;
+    text-align: center;
+}
 </style>
 <body>
 	<header align="center">
@@ -109,11 +119,13 @@ button:focus{
 	<div class="helo">
 	<a class="new">HELLO !....</a>
 	</div>
-	<footer>
-	<div align="center" class="foot">
+    <div class="foot">
+            <div class="one">
 	<a>It's great to<br>have you here<i class="em  em-blush"></i></a><br>
-	<button onclick="location.href='about_b.html'">Enter</button>
+        <button onclick="location.href='about_b.html'">Enter</button></div>
 	</div>
+	<footer>
+	
 	<div class="buttons" align="right">
 	<a href="https://www.facebook.com/vibun.kumar.3" class="fa fa-facebook"></a>
 	<a href="https://www.instagram.com/vibun_/" class="fa fa-instagram"></a>
